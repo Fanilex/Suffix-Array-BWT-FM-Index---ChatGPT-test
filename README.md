@@ -59,3 +59,19 @@ La conversación ofrece un entendimiento básico sobre el Suffix Array, la BWT, 
 4. **Poco enfoque en aplicaciones prácticas:** Aunque se menciona la importancia de estas estructuras en la búsqueda y compresión de datos, la conversación no profundiza en cómo se aplican en contextos reales.
 
 Este análisis crítico pone de relieve las deficiencias en la conversación y la importancia de profundizar en los detalles y técnicas avanzadas cuando se trata de implementar algoritmos de búsqueda y compresión en textos.
+
+
+## Conclusiones Individuales
+
+### Alejandro Kong:
+
+Esta actividad me permitió explorar conceptos avanzados de búsqueda de subcadenas, como el Suffix Array, la Burrows-Wheeler Transform (BWT) y el FM-Index. Colaborar en equipo y utilizar Git fue esencial para organizar nuestro trabajo y documentar el proceso.
+En este caso me toco implementar el Suffix Array, con la ayuda de ChatGPT, facilitó mi comprensión de cómo estas estructuras optimizan la búsqueda en cadenas largas. También aprendí a analizar la complejidad temporal y espacial de nuestros algoritmos, lo que es crucial para mejorar su eficiencia. Esta experiencia me ayudó a reforzar mis conocimientos en estructuras de datos y a apreciar el valor de los grandes modelos de lenguaje en la programación.
+
+### Miranda Arróniz:
+
+En la actividad de búsqueda en cadenas como el FM-Index, Burrows-Wheeler Transform (BWT) y Suffix Arrays, me enfoqué en implementar el BWT con la ayuda de ChatGPT-4. Contar con la ayuda de ChatGPT fue útil para entender cómo estas estructuras optimizan la búsqueda de datos. También comparé en tiempo y espacio la eficiencia del BWT con los algoritmos que mis demás compañeros implementamos. También use Git para coordinar y documentar el proyecto. Al final, esta experiencia me demostró lo útil que es la IA en programación y aprendizaje.
+
+### Estefanía Antonio:
+
+Este proyecto me permitió profundizar en algoritmos avanzados y aplicar estructuras de datos complejas de manera práctica. El uso de Chat GPT fue enriquecedor, ya que facilitó la iteración rápida y la resolución eficiente de problemas. Sin embargo, es esencial complementar esta tecnología con un sólido conocimiento teórico para garantizar la precisión de las soluciones. El análisis de una cadena de genoma y la búsqueda de la subcadena “TCGA” demostraron la versatilidad de estos algoritmos en bioinformática, ampliando mi perspectiva sobre sus aplicaciones reales en la ciencia. La actividad fue un desafío que me permitió aplicar conocimientos y explorar nuevas tecnologías. Estoy satisfecha con el resultado y motivada a seguir investigando el potencial de la inteligencia artificial en la biología y la salud.
