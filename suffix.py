@@ -55,6 +55,49 @@ def construir_Occur(bwt):
     
     return occur
 
+# Construir el arreglo C
+def construir_C(bwt):
+    conteo = Counter(bwt)
+    caracteres_ordenados = sorted(conteo.keys())
+    C = {}
+    total = 0
+    for char in caracteres_ordenados:
+        C[char] = total
+        total += conteo[char]
+    return C
+
+# Construir el arreglo Occur
+def construir_Occur(bwt):
+    occur = {}
+    for char in set(bwt):
+        occur[char] = [0] * (len(bwt) + 1)
+    for i in range(1, len(bwt) + 1):
+        char = bwt[i - 1]
+        for c in occur:
+            occur[c][i] = occur[c][i - 1]
+        occur[char][i] += 1
+    return occur
+
+# Función backwardSearch para búsqueda de patrones
+def backwardSearch(patron, bwt, C, Occur):
+    top = 0
+    bottom = len(bwt) - 1
+    i = len(patron) - 1  # Empezamos por el último carácter del patrón
+    
+    while i >= 0 and top <= bottom:
+        char = patron[i]
+        i -= 1
+        if char in C:
+            top = C[char] + Occur[char][top]
+            bottom = C[char] + Occur[char][bottom + 1] - 1
+        else:
+            return []  # El patrón no está en el texto
+
+    if top <= bottom:
+        return list(range(top, bottom + 1))
+    else:
+        return []
+
 def main():
     archivo = 'entrada.txt'
     
