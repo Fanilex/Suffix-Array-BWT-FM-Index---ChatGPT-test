@@ -52,6 +52,20 @@ Los arreglos C y Occur son fundamentales para el FM-Index. El arreglo C proporci
 ### Lo que Dice la Conversación
 La conversación describe cómo construir los arreglos C y Occur, enfatizando su utilidad en el FM-Index. Se menciona la complejidad temporal de O(n) para la construcción de C y O(n ⋅ |Σ|) para Occur. Sin embargo, no se aborda la complejidad espacial de estos arreglos ni se discuten optimizaciones posibles.
 
+## 4. FM-Index
+
+### Nuestra información:
+El FM-Index es una estructura de datos que permite la búsqueda eficiente de patrones en textos comprimidos, utilizando la Burrows-Wheeler Transform (BWT) y los arreglos C y Occur. El FM-Index aprovecha la propiedad de la BWT de agrupar caracteres similares, lo que facilita la búsqueda en O(m) tiempo, donde m es la longitud del patrón. Esta eficiencia se logra mediante una búsqueda en reversa (backward search), que recorre el patrón de derecha a izquierda.
+
+### Lo que dice la conversación:
+En la conversación, se discute la construcción del FM-Index y la función backwardSearch, que utiliza la BWT, C y Occur para realizar búsquedas de patrones. Se menciona que la complejidad temporal para la búsqueda es O(m), y que esta metodología es eficiente. Sin embargo, no se mencionan detalles sobre cómo se implementa el FM-Index en su totalidad, ni se discuten las optimizaciones que se pueden aplicar para mejorar su rendimiento.
+
+## Cuestionamientos y errores:
+
+- **Falta de detalles sobre la construcción del FM-Index:** Aunque se menciona la búsqueda usando el FM-Index, no se discute cómo se construye esta estructura de manera completa. Wikipedia proporciona una descripción más exhaustiva de cómo se combinan la BWT y los arreglos C y Occur para formar el FM-Index, lo que sería valioso para una comprensión más profunda.
+
+- **Omisión de optimizaciones:** La conversación no considera optimizaciones potenciales para el FM-Index, como el uso de compresión en los arreglos C y Occur, que podría reducir el uso de memoria y mejorar el rendimiento general. Wikipedia menciona que el uso de técnicas de compresión puede ser ventajoso en textos largos.
+
 ### Cuestionamientos y Errores
 - **Complejidad espacial no discutida:** Aunque se menciona que el arreglo Occur tiene una complejidad de O(n ⋅ |Σ|), no se discute la necesidad de este almacenamiento, lo que puede ser problemático para textos grandes.
 
