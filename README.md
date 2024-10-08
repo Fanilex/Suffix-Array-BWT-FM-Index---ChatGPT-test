@@ -2,6 +2,8 @@
 
 Durante esta actividad se tuvo una conversación con ChatGPT en la cual se implementaron algunos algoritmos, analizando la información compartida en comparación con las diapositivas dadas en clase y con una investigación adicional sobre estos algoritmos.
 
+![image](https://github.com/user-attachments/assets/13bb485d-1ba5-4483-8694-30ececf16ab5)
+
 ## 1. Suffix Array
 
 ### Nuestra Información
