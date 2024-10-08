@@ -31,6 +31,7 @@ La BWT es una transformación que reorganiza el texto para que caracteres simila
 
 ### Lo que Dice la Conversación
 La conversación describe correctamente la BWT como una permutación del texto basada en el Suffix Array, con una complejidad temporal de O(n). Sin embargo, no se menciona en detalle el propósito de la BWT y cómo mejora la compresión y la búsqueda de patrones.
+![image](https://github.com/user-attachments/assets/1a4f4e59-dba6-4c33-8b17-4da4799a1a60)
 
 ![image](https://github.com/user-attachments/assets/c372d18e-92d8-4d9c-849c-8addc5d0878e)
 
@@ -57,8 +58,16 @@ La conversación describe cómo construir los arreglos C y Occur, enfatizando su
 ### Nuestra información:
 El FM-Index es una estructura de datos que permite la búsqueda eficiente de patrones en textos comprimidos, utilizando la Burrows-Wheeler Transform (BWT) y los arreglos C y Occur. El FM-Index aprovecha la propiedad de la BWT de agrupar caracteres similares, lo que facilita la búsqueda en O(m) tiempo, donde m es la longitud del patrón. Esta eficiencia se logra mediante una búsqueda en reversa (backward search), que recorre el patrón de derecha a izquierda.
 
+![image](https://github.com/user-attachments/assets/551bc5b7-21fb-404b-bfdd-a903acaa0b1f)
+
+
 ### Lo que dice la conversación:
 En la conversación, se discute la construcción del FM-Index y la función backwardSearch, que utiliza la BWT, C y Occur para realizar búsquedas de patrones. Se menciona que la complejidad temporal para la búsqueda es O(m), y que esta metodología es eficiente. Sin embargo, no se mencionan detalles sobre cómo se implementa el FM-Index en su totalidad, ni se discuten las optimizaciones que se pueden aplicar para mejorar su rendimiento.
+
+![image](https://github.com/user-attachments/assets/6644f983-71f3-4b6a-8d0c-7bf56e74655c)
+
+![image](https://github.com/user-attachments/assets/97b4024e-9728-48d4-98c8-0679ff9654ba)
+
 
 ## Cuestionamientos y errores:
 
@@ -86,6 +95,9 @@ La conversación ofrece un entendimiento básico sobre el Suffix Array, la BWT, 
 Este análisis crítico pone de relieve las deficiencias en la conversación y la importancia de profundizar en los detalles y técnicas avanzadas cuando se trata de implementar algoritmos de búsqueda y compresión en textos.
 
 Para ver la conversación continua, se puede ver en el siguiente enlace: https://chatgpt.com/share/67048d18-dd4c-8003-a2ab-4d3e08f7b608 
+
+![Uploading image.png…]()
+
 
 ## Conclusiones Individuales
 
