@@ -71,6 +71,7 @@ La conversación ofrece un entendimiento básico sobre el Suffix Array, la BWT, 
 
 Este análisis crítico pone de relieve las deficiencias en la conversación y la importancia de profundizar en los detalles y técnicas avanzadas cuando se trata de implementar algoritmos de búsqueda y compresión en textos.
 
+Para ver la conversación continua, se puede ver en el siguiente enlace: https://chatgpt.com/share/67048d18-dd4c-8003-a2ab-4d3e08f7b608 
 
 ## Conclusiones Individuales
 
