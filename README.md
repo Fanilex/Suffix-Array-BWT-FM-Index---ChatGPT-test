@@ -8,11 +8,13 @@ Durante esta actividad se tuvo una conversación con ChatGPT en la cual se imple
 
 ### Nuestra Información
 El Suffix Array es una estructura de datos que contiene los índices de los sufijos de una cadena ordenados lexicográficamente. Los algoritmos más eficientes para construir un Suffix Array pueden lograr una complejidad de O(n) utilizando técnicas como el algoritmo de Kärkkäinen-Sanders. Además, el Suffix Array es fundamental para diversas aplicaciones, incluyendo búsqueda de patrones y compresión de datos.
+
 ![image](https://github.com/user-attachments/assets/8d427dac-252d-4e52-816f-2b343c0de0c1)
 
 
 ### Lo que Dice la Conversación
 En la conversación, se discutió un método básico para construir el Suffix Array al generar todos los sufijos y ordenarlos, lo que implica una complejidad temporal de O(n² log n). Sin embargo, no se mencionó la existencia de algoritmos más eficientes que podrían reducir significativamente esta complejidad. La conversación se centró en una implementación sencilla sin discutir los métodos avanzados que se pueden aplicar.
+
 ![image](https://github.com/user-attachments/assets/c11c3112-6b43-4131-931b-fd462935bc6b)
 
 ### Cuestionamientos y Errores
@@ -25,18 +27,27 @@ En la conversación, se discutió un método básico para construir el Suffix Ar
 ### Nuestra Información
 La BWT es una transformación que reorganiza el texto para que caracteres similares queden juntos, mejorando la compresión. Se construye a partir del Suffix Array, y su complejidad de construcción es O(n). La BWT se utiliza en combinación con el FM-Index para realizar búsquedas eficientes.
 
+![image](https://github.com/user-attachments/assets/b3ed14d1-4bde-434e-b014-b760b05462ab)
+
 ### Lo que Dice la Conversación
 La conversación describe correctamente la BWT como una permutación del texto basada en el Suffix Array, con una complejidad temporal de O(n). Sin embargo, no se menciona en detalle el propósito de la BWT y cómo mejora la compresión y la búsqueda de patrones.
+
+![image](https://github.com/user-attachments/assets/c372d18e-92d8-4d9c-849c-8addc5d0878e)
 
 ### Cuestionamientos y Errores
 - **Propósito de la BWT no discutido:** Aunque se menciona que la BWT agrupa caracteres, no se detalla cómo esto mejora la compresión. La conversación podría beneficiarse de una discusión sobre el impacto de la BWT en la eficiencia de algoritmos de búsqueda.
 
 - **Falta de alternativas para la construcción:** No se mencionan métodos alternativos o eficientes para construir la BWT, lo que podría haber enriquecido el entendimiento de la implementación.
 
+  ![image](https://github.com/user-attachments/assets/01458821-4461-4899-a3b4-b6b2c7b71330)
+
+
 ## 3. Arreglos C y Occur
 
 ### Nuestra Información
 Los arreglos C y Occur son fundamentales para el FM-Index. El arreglo C proporciona un conteo de cuántos caracteres lexicográficamente menores aparecen en el texto, mientras que Occur mantiene un conteo acumulado de las ocurrencias de cada carácter en la BWT.
+
+![image](https://github.com/user-attachments/assets/860123b8-67d4-48bd-a758-f0f9a5c8eb6a)
 
 ### Lo que Dice la Conversación
 La conversación describe cómo construir los arreglos C y Occur, enfatizando su utilidad en el FM-Index. Se menciona la complejidad temporal de O(n) para la construcción de C y O(n ⋅ |Σ|) para Occur. Sin embargo, no se aborda la complejidad espacial de estos arreglos ni se discuten optimizaciones posibles.
