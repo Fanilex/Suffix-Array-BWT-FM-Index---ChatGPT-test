@@ -31,6 +31,7 @@ La BWT es una transformación que reorganiza el texto para que caracteres simila
 
 ### Lo que Dice la Conversación
 La conversación describe correctamente la BWT como una permutación del texto basada en el Suffix Array, con una complejidad temporal de O(n). Sin embargo, no se menciona en detalle el propósito de la BWT y cómo mejora la compresión y la búsqueda de patrones.
+
 ![image](https://github.com/user-attachments/assets/1a4f4e59-dba6-4c33-8b17-4da4799a1a60)
 
 ![image](https://github.com/user-attachments/assets/c372d18e-92d8-4d9c-849c-8addc5d0878e)
@@ -96,8 +97,7 @@ Este análisis crítico pone de relieve las deficiencias en la conversación y l
 
 Para ver la conversación continua, se puede ver en el siguiente enlace: https://chatgpt.com/share/67048d18-dd4c-8003-a2ab-4d3e08f7b608 
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/cfed3dee-c585-4b20-8c17-a2f890b946c3)
 
 ## Conclusiones Individuales
 
