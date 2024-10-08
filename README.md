@@ -8,9 +8,12 @@ Durante esta actividad se tuvo una conversación con ChatGPT en la cual se imple
 
 ### Nuestra Información
 El Suffix Array es una estructura de datos que contiene los índices de los sufijos de una cadena ordenados lexicográficamente. Los algoritmos más eficientes para construir un Suffix Array pueden lograr una complejidad de O(n) utilizando técnicas como el algoritmo de Kärkkäinen-Sanders. Además, el Suffix Array es fundamental para diversas aplicaciones, incluyendo búsqueda de patrones y compresión de datos.
+![image](https://github.com/user-attachments/assets/8d427dac-252d-4e52-816f-2b343c0de0c1)
+
 
 ### Lo que Dice la Conversación
 En la conversación, se discutió un método básico para construir el Suffix Array al generar todos los sufijos y ordenarlos, lo que implica una complejidad temporal de O(n² log n). Sin embargo, no se mencionó la existencia de algoritmos más eficientes que podrían reducir significativamente esta complejidad. La conversación se centró en una implementación sencilla sin discutir los métodos avanzados que se pueden aplicar.
+![image](https://github.com/user-attachments/assets/c11c3112-6b43-4131-931b-fd462935bc6b)
 
 ### Cuestionamientos y Errores
 - **Falta de menciones a algoritmos eficientes:** No se mencionó el algoritmo de Kärkkäinen-Sanders ni otros métodos que permiten construir el Suffix Array en O(n) tiempo, lo cual es crítico para aplicaciones con grandes volúmenes de datos.
